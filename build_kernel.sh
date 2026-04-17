@@ -10,6 +10,8 @@ export CROSS_COMPILE_COMPAT="arm-linux-gnueabi-"
 export OUT_DIR="../out/target/product/gta9/obj/KERNEL_OBJ"
 export DIST_DIR="../out/target/product/gta9/obj/KERNEL_OBJ"
 export BUILD_CONFIG="../out/target/product/gta9/obj/KERNEL_OBJ/build.config"
+export KMI_SYMBOL_LIST_STRICT_MODE=0
+export ABI_DEFINITION=
 
 cd ../kernel
 ./build/build.sh
